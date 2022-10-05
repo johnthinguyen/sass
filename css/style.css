@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.btn1 {
+  border-radius: 50px;
+  padding: 10px 15px;
+  background-color: #b61984;
+  border-color: #b61984;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  font-size: 0.9rem;
+  transition: all 0.5s;
+}
+.btn1:hover {
+  background-color: white;
+  color: #b61984;
+  border-color: #b61984;
+}
+
+header {
+  background-image: url(../../images/header.png);
+  background-position: center;
+  background-size: cover;
+}
+header .icon {
+  color: black;
+  margin: 5px;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+header .icon:hover {
+  color: #b61984;
+}
+header .nav-link {
+  color: black !important;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+header .nav-link:hover {
+  color: #b61984 !important;
+}
+
+.carousel {
+  background-image: none;
+}
+.carousel p {
+  color: #b61984;
+  font-size: 1.1rem;
+  margin-bottom: 0.5em;
+}
+.carousel h1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.table_index {
+  background-image: url(../../images/background2.png);
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.table_index .card {
+  transition: all 0.5s;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.table_index .card:hover {
+  box-shadow: 5px 5px 20px #d2d0d0;
+}
+.table_index .card .card-title {
+  color: #b61984;
+  font-size: 0.75rem;
+  margin-bottom: 0.7em;
+}
+.table_index .card .card-text {
+  font-size: 1.55rem;
+  font-weight: 700;
+}
+.table_index .card p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.login .container .row .col-6 img {
+  width: 100%;
+  height: 80%;
+}
+.login .container .row .col-6 .card {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  box-shadow: 10px 10px 10px 10px #d2d0d0;
+}
+.login .container .row .col-6 .card h2 {
+  font-weight: 700;
+}
+.login .container .row .col-6 .card input {
+  padding-left: 20px;
+  width: 45%;
+}
+.login .container .row .col-6 .card input:focus {
+  border-color: #b61984;
+}
+.login .container .row .col-6 .card .icon-1 {
+  position: absolute;
+  left: 68px;
+  top: 100px;
+  z-index: 100000;
+  color: #b61984;
+}
+.login .container .row .col-6 .card .icon-2 {
+  position: absolute;
+  left: 236px;
+  top: 100px;
+  color: #b61984;
+}
+.login .container .row .col-6 .card select option {
+  background-color: white !important;
+  color: black !important;
+  transition: all 0.5s;
+}
+.login .container .row .col-6 .card select option:hover {
+  color: #b61984 !important;
+  background-color: white !important;
+}
+
+footer {
+  background-image: url(../../images/footer_background.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+footer .container {
+  padding-top: 100px;
+  color: white;
+}
+footer .container .row .col-3 h3 {
+  font-size: 1.55rem;
+}
+footer .container .row .col-3 p {
+  font-size: 13px;
+}
+footer .container .row .last input {
+  border-radius: 50px;
+  padding: 5px;
+  color: white;
+  border: none;
+  background-color: #b61984;
+}
+footer .container .row .last input:focus {
+  border-color: #b61984;
+  color: white;
+}
+footer .container .row .last button {
+  background-color: white;
+  color: black;
+  border: 3px #b61984;
+  border-radius: 50px;
+  font-size: 15px;
+  padding: 7px 60px;
+  transition: all 0.5s;
+}
+footer .container .row .last button:hover {
+  background-color: #b61984;
+  border: 3px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+header {
+    background-image: url(../../images/header.png);
+    background-position: center;
+    background-size: cover;
+   
+
+    .icon {
+        color: $color-3;
+        margin: 5px;
+        transition: all 0.5s;
+        text-decoration: none;
+
+        &:hover {
+            color: $color-1;
+        }
+    }
+
+    .nav-link {
+        color: black !important;
+        font-weight: 600;
+        @include transition;
+
+        &:hover {
+            color: $color-1  !important;
+        }
+    }
+}
